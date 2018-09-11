@@ -10,7 +10,14 @@ namespace InvoiceDesk.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page hi ";
+            ViewBag.Title = "Home Page hi new ";
+
+            return View();
+        }
+
+        public ActionResult Index2()
+        {
+            ViewBag.Title = "Home Page hi new ";
 
             return View();
         }
